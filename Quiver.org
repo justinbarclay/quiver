@@ -77,10 +77,11 @@ Link: [[https://futureofcoding.org/episodes/28]]
 https://twitter.com/spiralganglion/status/1035001118936330240
 *** Thoughts
 * To Watch
-** TODO [#A] Joe Armstrong Interviews Alan Kay
+** DONE [#A] Joe Armstrong Interviews Alan Kay
 :PROPERTIES:
 :CATEGORY: Programming
 :Date_Added: <2018-08-30 Thu>
+:Date_Finished: <2018-08-30 Thu>
 :END:
 :link https://www.youtube.com/watch?v=fhOHn9TClXY
 *** Source
