@@ -1,0 +1,94 @@
+* To Read
+** TODO [#A] Setting up Console on Windows                           :Paper:
+Link: https://github.com/mattpodwysocki/Console-Setup
+*** Source
+https://twitter.com/mattpodwysocki/status/1034939303212851203
+*** Thoughts
+** TODO [#A] A Plea for Lean Software                                :Paper:
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-08-30 Thu>
+:END:
+Link: https://cr.yp.to/bib/1995/wirth.pdf
+*** Source
+https://www.youtube.com/watch?v=-I_jE0l7sYQ
+*** Thoughts
+** TODO [#A] The Emperors Old Clothes                                :Paper:
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-08-30 Thu>
+:END:
+Link: http://delivery.acm.org/10.1145/360000/358561/p75-hoare.pdf?ip=96.52.110.211&id=358561&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1535665930_424cf1f77f46a38767e68013b6887142
+*** Source
+https://www.youtube.com/watch?v=-I_jE0l7sYQ
+*** Thoughts
+** TODO [#A] A versatile divide and conquer technique for optimal string alignment :Paper:
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-08-30 Thu>
+:END:
+
+Link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.504.8029&rep=rep1&type=pdf
+** TODO [#B] The Structure and Interpretation                   :Book:
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-08-30 Thu>
+:END:
+Link: https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html
+*** Source
+Everywhere
+*** Thoughts
+** TODO [#B] Algorithms + Data Structures = Programs                  :Book:
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-08-30 Thu>
+:END:
+Link: http://www.ethoberon.ethz.ch/WirthPubl/AD.pdf
+Link: https://www.amazon.com/Algorithms-Data-Structures-Niklaus-Wirth/dp/0130220051/ref=pd_sim_14_5?_encoding=UTF8&pd_rd_i=0130220051&pd_rd_r=25c4a897-aca0-11e8-9f1d-0fdf2b561195&pd_rd_w=R0La5&pd_rd_wg=b2gze&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=a180fdfb-b54e-4904-85ba-d852197d6c09&pf_rd_r=HSZMWT3X10E273263WMQ&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=HSZMWT3X10E273263WMQ
+*** Source
+https://www.youtube.com/watch?v=-I_jE0l7sYQ
+*** Thoughts
+** TODO [#B] The Mythical Man Month                                   :Book:
+:PROPERTIES:
+:CATEGORY: Managing
+:Date_Added: <2018-08-30 Thu>
+:END:
+Link: https://www.amazon.ca/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959
+*** Source
+https://www.youtube.com/watch?v=-I_jE0l7sYQ
+*** Thoughts
+** TODO [#B] Computation Finite and Infinite Machines                 :Book:
+:PROPERTIES:
+:Date_Added: <2018-08-30 Thu>
+:CATEGORY: Programming
+:END:
+Link: https://www.amazon.com/Computation-Finite-Infinite-Machines-Automatic/dp/0131655639
+*** Source
+https://www.youtube.com/watch?v=-I_jE0l7sYQ
+*** Thoughts
+* To Listen
+** TODO [#A] Exploring Dynamicland: Omar Rizwan
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-08-30 Thu>
+:END:
+Link: [[https://futureofcoding.org/episodes/28]]
+*** Source
+https://twitter.com/spiralganglion/status/1035001118936330240
+*** Thoughts
+* To Watch
+** TODO [#A] Joe Armstrong Interviews Alan Kay
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-08-30 Thu>
+:END:
+:link https://www.youtube.com/watch?v=fhOHn9TClXY
+*** Source
+https://www.youtube.com/watch?v=-I_jE0l7sYQ
+*** Thoughts
+- Joe Armstrong likes to interrupt Alan Kay
+- Interesting history of Computing from Alan Kay's perspective
+- He goes over a lot of early papers outlining programming languages, like Lisp, Prolog, Meta II, Simula, Planner, Smalltalk-72, Sketchpad, Erlang
+- He mentions a lot of interesting papers by [[https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)][John Mcarthy]], and a lot of work that he has done to push CS
+- The first 35 minutes are the best
+* Thoughts
