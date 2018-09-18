@@ -29,6 +29,15 @@ https://www.youtube.com/watch?v=-I_jE0l7sYQ
 :END:
 
 Link: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.504.8029&rep=rep1&type=pdf
+** What is applied category theory                                    :Book:
+:PROPERTIES:
+:CATEGORY: Math
+:Date_Added: <2018-09-18 Thu>
+:END:
+Link: https://arxiv.org/pdf/1809.05923.pdf
+*** Source
+https://twitter.com/math3ma/status/1042074078683844609
+*** Thoughts
 ** TODO [#B] The Structure and Interpretation                   :Book:
 :PROPERTIES:
 :CATEGORY: Programming
