@@ -89,7 +89,7 @@ https://www.youtube.com/watch?v=-I_jE0l7sYQ
 Link:  https://www.quantamagazine.org/the-octonion-math-that-could-underpin-physics-20180720/
 *** Source
 Ivan
-** TODO [#A]
+** TODO [#A] Patterns That Eventually Fail
 :PROPERTIES:
 :Date_Added: <2018-09-09
  Thu>
