@@ -1,4 +1,10 @@
 * To Read
+** TODO [#A] Build youru own raytracer
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-09-08 Thu>
+:END:
+Link https://avik-das.github.io/build-your-own-raytracer/
 ** TODO [#A] Setting up Console on Windows                           :Paper:
 Link: https://github.com/mattpodwysocki/Console-Setup
 *** Source
@@ -75,6 +81,23 @@ Link: https://www.amazon.com/Computation-Finite-Infinite-Machines-Automatic/dp/0
 *** Source
 https://www.youtube.com/watch?v=-I_jE0l7sYQ
 *** Thoughts
+** TODO [#A] The Peculiar Math That Could Underlie the Laws of Nature
+:PROPERTIES:
+:Date_Added: <2018-09-06 Thu>
+:CATEGORY: Math
+:END:
+Link:  https://www.quantamagazine.org/the-octonion-math-that-could-underpin-physics-20180720/
+*** Source
+Ivan
+** TODO [#A]
+:PROPERTIES:
+:Date_Added: <2018-09-09
+ Thu>
+:CATEGORY: Math
+:END:
+Link https://t.co/Yw0S0Iyyx9
+*** Source
+https://twitter.com/johncarlosbaez/status/1043161440545267713
 * To Listen
 ** TODO [#A] Exploring Dynamicland: Omar Rizwan
 :PROPERTIES:
