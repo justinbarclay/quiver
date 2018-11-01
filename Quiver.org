@@ -91,13 +91,20 @@ Link:  https://www.quantamagazine.org/the-octonion-math-that-could-underpin-phys
 Ivan
 ** TODO [#A] Patterns That Eventually Fail
 :PROPERTIES:
-:Date_Added: <2018-09-09
- Thu>
+:Date_Added: <2018-09-09 Thu>
 :CATEGORY: Math
 :END:
 Link https://t.co/Yw0S0Iyyx9
 *** Source
 https://twitter.com/johncarlosbaez/status/1043161440545267713
+** TODO [#A] Practical Algorithms for Incremental Software Development Environments
+:PROPERTIES:
+:Date_Added: <2018-11-01 Thu>
+:CATEGORY: Algorithms
+:END:
+Link https://www2.eecs.berkeley.edu/Pubs/TechRpts/1997/CSD-97-946.pdf
+*** Source
+https://www.youtube.com/watch?v=Jes3bD6P0To
 * To Listen
 ** TODO [#A] Exploring Dynamicland: Omar Rizwan
 :PROPERTIES:
