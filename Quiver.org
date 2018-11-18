@@ -105,6 +105,15 @@ https://twitter.com/johncarlosbaez/status/1043161440545267713
 Link https://www2.eecs.berkeley.edu/Pubs/TechRpts/1997/CSD-97-946.pdf
 *** Source
 https://www.youtube.com/watch?v=Jes3bD6P0To
+** TODO [#A] Decision Procedures for Path Feasibility of String-Manipulating Programs with Complex Operation
+:PROPERTIES:
+:Date_Added: <2018-11-13 Thu>
+:CATEGORY: Algorithms
+:END:
+Link: https://arxiv.org/pdf/1811.03167.pdf
+*** Source
+https://twitter.com/jessfraz/status/1062374716026052608
+https://twitter.com/johnregehr/status/1062373433374236673
 * To Listen
 ** TODO [#A] Exploring Dynamicland: Omar Rizwan
 :PROPERTIES:
