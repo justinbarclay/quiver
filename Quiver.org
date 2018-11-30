@@ -1,5 +1,11 @@
 * To Read
-** TODO [#A] Build youru own raytracer
+** TODO [#A] Rust flow
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2018-11-30 Fri>
+:END:
+Link https://myrrlyn.net/blog/misc/rust-flow-part-two
+** TODO [#A] Build your own raytracer
 :PROPERTIES:
 :CATEGORY: Programming
 :Date_Added: <2018-09-08 Thu>
