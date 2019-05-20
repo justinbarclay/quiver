@@ -1,3 +1,4 @@
+#+TAGS: Paper | Book
 * To Read
 ** TODO [#A] Rust flow
 :PROPERTIES:
@@ -124,6 +125,15 @@ https://twitter.com/johnregehr/status/1062373433374236673
 Link: http://okmij.org/ftp/continuations/
 *** Source
 http://lisperator.net/pltut/compiler/js-codegen
+** TODO One Monad to Prove Them All                                  :Paper:
+:PROPERTIES:
+:CATEGORY: Programming
+:Date_Added: <2019-05-20 Mon>
+:END:
+Link: https://arxiv.org/pdf/1805.08059.pdf
+*** Source
+I can't remember, someone on twitter
+*** Thoughts
 * To Listen
 ** TODO [#A] Exploring Dynamicland: Omar Rizwan
 :PROPERTIES:
