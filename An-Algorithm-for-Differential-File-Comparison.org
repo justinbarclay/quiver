@@ -1,0 +1,122 @@
+* An-Algorithm-for-Differential-File-Comparison
+:PROPERTIES:
+:NOTER_DOCUMENT: /Users/Justin/dev/quiver/pdfs/An-Algorithm-for-Differential-File-Comparison.pdf
+:END:
+I am finding that this is a really difficult paper to grasp and have re-read it several times to break it down but have had no effect.
+
+** Step 1
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.2695570216776626)
+:END:
+The first step of diffing two files is to create a list of tuples containing the line number and a hash of the line for all lines in the second file.
+
+For example, if you take the following file:
+#+NAME: file_two
+#+BEGIN_EXAMPLE
+Line 1
+Line 2
+Line 1
+#+END_EXAMPLE
+
+You can use any hash algorithm that produces an number, here we're using md5 (which can be converted to hex).
+#+NAME: hashed-lines
+#+BEGIN_SRC emacs-lisp :var file_two=file_two
+  (defun hash-lines (file)
+   (let ((lines (split-string file "[\n\r]+" 't)))
+     (count-and-hash-lines 0
+                            lines
+                            '())))
+
+  (defun count-and-hash-lines (line-num lines line-collection)
+    (if (car lines)
+        (count-and-hash-lines (1+ line-num)
+                              (cdr lines)
+                              (cons (list line-num
+                                          (md5 (car lines)))
+                                    line-collection))
+      line-collection))
+
+
+  (hash-lines file_two)
+#+END_SRC
+
+You'll get a list that looks like:
+#+NAME:  hashed-lines
+#+BEGIN_EXAMPLE
+| 2 | c8131c92c87aff317910de8bd2826995 |
+| 1 | a4a26283ecd819d8e714cc02ef4e356f |
+| 0 | c8131c92c87aff317910de8bd2826995 |
+#+END_EXAMPLE
+
+** Step 2
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.3449575871819039)
+:END:
+Once you have a list that includes a tuple for each line then we get to sort the data primarily on the hash (as a number) and secondarily on the line number.
+#+BEGIN_SRC elisp :var hashed-lines=hashed-lines :results value scalar :session diff
+  (defun compare-hashed-lines (first second)
+    (or (< (string-to-number (cadr first) 16)
+           (string-to-number (cadr second) 16))
+
+        (and (= (string-to-number (cadr first) 16)
+                (string-to-number (cadr second) 16))
+             (< (car first)
+                (car second)))))
+
+  (setq sorted-v (sort
+                  hashed-lines
+                  'compare-hashed-lines))
+#+END_SRC
+
+You'll come out with a sorted set of hashes.
+#+NAME: sorted-hashes
+#+BEGIN_EXAMPLE
+((1 "a4a26283ecd819d8e714cc02ef4e356f")
+ (0 "c8131c92c87aff317910de8bd2826995")
+ (2 "c8131c92c87aff317910de8bd2826995"))
+#+END_EXAMPLE
+
+** Step 3
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.37700282752120645)
+:END:
+Create an equivalence list. Where we make a list of all lines that are equivalent to their "right" sibling, or to the entry that comes after them.
+The idea with step 3 is that anything that is true is a unique example of a line in the file, an equivalency class. Hence why line 0 is blank and every last line of a set is blank.
+#+NAME: equivalency-classes
+#+BEGIN_SRC elisp :var sorted-hashes=sorted-hashes :results value scalar :session diff
+  (defun equivalent? (current rest)
+    (if (or (not rest)
+            (not
+             (string-equal (cadr current) ;; Hash from current
+                           (cadr (car rest)))));; Hash from next
+        't
+      '()))
+
+  (defun find-equivalency-classes (hashed-list)
+    (reverse
+     (find-equivalency-classes-helper (car hashed-list) (cdr hashed-list) '((0 true)))))
+
+  (defun find-equivalency-classes-helper (current rest collection)
+    (if (not current)
+        collection
+      (find-equivalency-classes-helper (car rest)
+                                       (cdr rest)
+                                       (cons (list (car current)
+                                                   (equivalent? current rest))
+                                             collection))))
+  (setq equivalency-class
+        (find-equivalency-classes sorted-v))
+#+END_SRC
+
+#+RESULTS:
+: ((0 true) (1 t) (0 nil) (2 t))
+
+** Step 4
+:PROPERTIES:
+:NOTER_PAGE: (7 . 0.5466540999057493)
+:END:
+Now that we've done all the work on file 2 we can go back to file 1. We want to compare
+#+BEGIN_SRC elisp
+  (defun find-equivalencies (line-number current-line current-file other-file equivence-classes)
+    )
+#+END_SRC
